@@ -1,0 +1,137 @@
+[
+    {
+        "Parameter": "FORM",
+        "Value": "QBIR",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter QBIR indicates the user arrived at results by having manually input search string \"[searchString]\" on a current Bing image search result page."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IDMHDL",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IDMHDL indicates the user arrived at results by having scrolled part way down a previous image search results page until a secondary search bar dropped down from the top of the page. The user arrived at this URL by having selected [searchString] from the Bing suggestions in this secondary search bar."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "Z9FD1",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter Z9FD1 indicates the user arrived at the Bing image search page by having selected the \"Images\" link from the main bing.com web page."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "HDRSC2",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter HDRSC2 indicates the user arrived at results by having manually typed the search term \"[searchString]\" into the main Bing search engine and then selecting \"Bing Images\" to view the image search results."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "HDRSC1",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter HDRSC1 indicates the user arrived at results by having performed a search for \"[searchString]\" not in the Bing web search and then clicking \"All\" to see all results."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "HDRSC3",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter HDRSC3 indicates the user arrived at results by having performed a search for \"[searchString]\" outside the \"Videos\" search (such as \"Images\" or \"All\") then clicking \"Videos\" to see only Video results."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "RESTAB",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter RESTAB indicates the user arrived at results by having previously manually typed a search term and then selected the Bing-suggested search term \"[searchString]\" located at the top of the page."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "ILSTRI",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter ILSTRI indicates the user arrived at Bing image results by having selected \"[searchString]\" in Bing Images trending searches."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "QBILPG",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter QBILPG indicates the user arrived at Bing image results by having manually searched for \"[searchString]\" from the Bing image search page."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "QBIRMH",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter QBIRMH indicates the user arrived at Bing image results by having manually typed an image search term and then scrolled down the page until a secondary search bar dropped down from the top of the page before having manually typed a search for \"[searchString]\" in this secondary search bar."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IDINTS",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IDINTS indicates the user arrived at Bing image results by having selected the Bing-suggested search term \"[searchString]\" which appeared as a result of the user having selected a thumbnail image in order to view the full-size image within the browser."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRIBIP",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IRIBIP indicates the user selected the thumbnail of an image categorized by the Bing search engine as \"Explore more searches like [initialSearch]\" "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IGRE",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IGRE indicates the user arrived at Bing image results by having typed a search term into the main Bing search engine then scrolled down the results page and selected the link \"Images of [searchString]\" to view the image search results."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IQFRBA",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IQFRBA indicates the user arrived at Bing image results by having manually typed a search term into the main Bing search engine then scrolled down the results page and selected a thumbnail image beneath the link \"Images of [searchString]\" to view the image search results. The URL string also provides a unique ID for the specific image selected by the user."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRIBEP",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IRIBEP indicates the user arrived at Bing image results by having selected the Bing-suggested thumbnail of an image located at the top of the search results page which was categorized by the Bing search engine as \"People interested in [initialSearch] also searched for \"[searchString]\"."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRBPRS",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IRBPRS indicates the user arrived at Bing image results by having selected the suggested thumbnail of an image located at the bottom of the search results page and categorized by the Bing search engine as \"Top Suggestions for [initialSearch]\" "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRIBPC",
+        "IRIBPC": "On [searchDate]  at [searchTime] URL parameter IRIBPC indicates the user arrived at Bing image results by having selected the suggested thumbnail of an image categorized by the Bing search engine as \"Connected to [initialSearch]\" "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRIBQP",
+        "IRIBQP": "On [searchDate]  at [searchTime] URL parameter IRIBQP indicates the user arrived at Bing image results by having selected the suggested thumbnail of an image located at the top of the search results page and categorized by the Bing search engine as \"Top Suggestions for [initialSearch]\" "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "R5FD2",
+        "R5FD2": "On [searchDate]  at [searchTime] URL parameter R5FD2 indicates the user arrived at Bing image results by having selected the suggested thumbnail of an image located at the bottom of the search results page and categorized by the Bing search engine as \"People interested in [initialSearch] also searched for\" "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRMHPC",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IRMHPC indicates the user arrived at Bing image results by having Search results derived from a user manually typing a search term selecting \"see more images\" at the bottom of the page, then selecting a suggested search term at the top of the page."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRMHRS",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IRMHRS indicates the user arrived at results by having scrolled part way down a search results page until a secondary search bar drops down from the top of the page and then selected a suggested search term from the drop down search bar. "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRMHRE",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IRMHRE indicates the user arrived at results by having scrolled part way down a search results page until a secondary search bar drops down from the top of the page and then selected a suggested search term from the drop down search bar. "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "IRMHQP",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter IRMHQP indicates the user arrived at results by having scrolled part way down a search results page until a secondary search bar drops down from the top of the page and then selected a suggested search term from the drop down search bar. "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "AWIR",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter AWIR indicates the user arrived at results by having selected \"Results are included for [alternate version of initial search \"[searchString]\"] (i.e. user searched for \"pitbull\" and Bing includes additional results for \"pit bull\")."
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "RCIR",
+        "RCIR": "On [searchDate]  at [searchTime] URL parameter RCIR indicates the user arrived at results by having selected \"Show just the results for [initialSearch]\". "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "AWRE",
+        "AWRE": "On [searchDate]  at [searchTime] URL parameter AWRE indicates the user arrived at results by having misspelled a term and then selected \"Including results for [correct spelling]\" "
+    },
+    {
+        "Parameter": "FORM",
+        "Value": "ILPMFT",
+        "Meaning": "On [searchDate]  at [searchTime] URL parameter ILPMFT indicates the user arrived at an image grid derived when a user is directed to a fresh Bing image search page. "
+    }
+]

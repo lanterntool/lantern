@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lantern</title>
+</head>
+
+<body>
+    <div class="container center-align">
+        <h3><img src="lantern.png" width="25" height="50"><i class="fas">&nbsp;Lantern</i></h3>
+        <p>Choose a file to process</p>
+        <form id="process-form">
+            <div class="file-field input-field">
+                <div class="btn" id="inputBtn">
+                    <span>Browse</span>
+                </div>
+                <div class="file-path-wrapper">
+                    <input type="text" readonly class="file-path validate" id="inputFileField"
+                        placeholder="File to process">
+                </div>
+            </div>
+            <p>Choose the output file</p>
+            <div class="file-field input-field">
+                <div class="btn disabled" id="outputBtn">
+                    <span>Browse</span>
+                </div>
+                <div class="file-path-wrapper">
+                    <input type="text" readonly class="file-path validate" id="outputFileField"
+                        placeholder="Output file">
+                </div>
+
+            </div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row">
+                <div class="col s4"></div>
+                <div class="col s4">
+                    <input class="btn black disabled " type="submit" id="submitBtn" type="submit" value="Process">
+                </div>
+                <div class="col s4">
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+
+    <script>
+        require('./js/renderer.js')
+    </script>
+</body>
+
+</html>

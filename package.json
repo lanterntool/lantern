@@ -1,0 +1,40 @@
+{
+  "name": "lantern",
+  "productName": "Lantern",
+  "version": "1.0.0",
+  "description": "App to parse Bing FORM ID's",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron .",
+    "package-mac": "electron-packager . --overwrite --asar=true --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=releases/Mac/",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=x64 --icon=assets/icons/win/icon.ico --prune=true --out=releases/Windows/ --version-string.CompanyName=Lantern --version-string.FileDescription=CE --version-string.ProductName=\"Lantern\"",
+    "package-linux": "electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=releases/Linux/",
+    "create-installer-mac": "electron-installer-dmg ./releases/Mac/Lantern-darwin-x64/Lantern.app Lantern --out=release-installers --overwrite --icon=assets/icons/mac/icon.icns",
+    "build:windows": "electron-builder --win --dir",
+    "dist:windows": "electron-builder --win"
+  },
+  "author": "Ben McElyea",
+  "license": "SEE LICENSE IN License.txt",
+  "devDependencies": {
+    "electron": "^8.3.1",
+    "electron-builder": "^22.7.0",
+    "electron-installer-dmg": "^3.0.0",
+    "electron-packager": "^15.0.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {},
+  "build": {
+    "appId": "gov.nasa.oig.ccd",
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "nsis": {
+      "oneClick": "false",
+      "allowToChangeInstallationDirectory": "true",
+      "createStartMenuShortcut": "true",
+      "createDesktopShortcut": "always",
+      "installerIcon": "assets/icons/win/icon.ico"
+    }
+  }
+}
